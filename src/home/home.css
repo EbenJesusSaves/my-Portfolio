@@ -1,0 +1,71 @@
+.bg-img {
+  background-image: url(../img/png-1.png);
+
+  background-repeat: no-repeat;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link {
+  text-decoration: none;
+  color: #000 !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.main-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img img {
+  width: 120%;
+}
+
+.navbar {
+  border-bottom: solid #f78431 0.2px;
+}
+
+.growBusiness {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.txt-one {
+  color: #000;
+  font-family: poppins;
+  font-weight: 1000;
+  font-size: 4rem;
+}
+
+.txt-two {
+  color: #f78431;
+  font-family: poppins;
+  font-weight: 1000;
+  font-size: 4rem;
+}
+
+.q-mark {
+  color: #000;
+  font-family: poppins;
+  font-weight: 1000;
+  font-size: 4rem;
+  padding-left: 2rem;
+}
+.navbar-brand{
+    color: #000;
+    font-family: poppins;
+    font-weight: 500;
+}
